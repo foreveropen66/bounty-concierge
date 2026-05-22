@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-21T07:32:46.447170+00:00",
-  "total_count": 130,
+  "updated_at": "2026-05-22T07:28:46.045998+00:00",
+  "total_count": 129,
   "bounties": [
     {
       "repo": "Scottcjn/rustchain-bounties",
@@ -162,25 +162,6 @@
         "rust",
         "security",
         "social-media"
-      ]
-    },
-    {
-      "repo": "Scottcjn/Rustchain",
-      "number": 2147,
-      "title": "Bounty: GPU Fingerprinting \u2014 Channel 8 for PPA (RIP-0308)",
-      "body": "## \ud83c\udfc6 Bounty: 150 RTC\n\n[RIP-0308](https://github.com/Scottcjn/Rustchain/blob/main/rips/docs/RIP-0308-proof-of-physical-ai.md) defines Proof of Physical AI with 7 CPU fingerprint channels. GPUs are next.\n\n**Design and implement Channel 8: GPU Fingerprinting** that detects:\n1. Shader execution jitter \u2014 timing variance across shader cores\n2. VRAM timing profiles \u2014 access latency unique to each GPU\n3. Compute unit asymmetry \u2014 throughput differences between CUs\n4. Thermal throttle signatures \u2014 GPU response to sustained load\n\n**Requirements:**\n- NVIDIA (CUDA) + AMD (ROCm) support minimum\n- Must distinguish two GPUs of same model (silicon lottery)\n- Must detect VM GPU pass-through (vfio-pci spoofing)\n- Python implementation matching `fingerprint_checks.py` style\n- Test results from 2+ GPU models\n\n**Bonus (+50 RTC):** Demonstrate on a vintage GPU (GeForce 8800, Radeon HD 4870, or older).",
-      "url": "https://github.com/Scottcjn/Rustchain/issues/2147",
-      "labels": [
-        "enhancement",
-        "bounty"
-      ],
-      "created_at": "2026-04-06T17:13:57Z",
-      "reward_rtc": 150.0,
-      "difficulty": "major",
-      "skills": [
-        "documentation",
-        "python",
-        "rust"
       ]
     },
     {
