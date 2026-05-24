@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T07:28:46.045998+00:00",
+  "updated_at": "2026-05-24T07:18:28.030428+00:00",
   "total_count": 129,
   "bounties": [
     {
@@ -137,6 +137,22 @@
       "difficulty": "critical",
       "skills": [
         "python",
+        "rust"
+      ]
+    },
+    {
+      "repo": "Scottcjn/rustchain-bounties",
+      "number": 12028,
+      "title": "[GRANT: 150 RTC/mo] Maintainer-Nominated Welcome Grant",
+      "body": "*Part of the **RustChain Growth Program v1**.*\n\n**Program rules** \u2014 program-wide cap **600 RTC/month** \u00b7 a \"holder\" counts only as a wallet with \u22652 accepted actions \u22657 days apart \u00b7 every payout passes a maintainer-judgment gate (this is what keeps the program farm-resistant).\n\n---\n\n## Maintainer-Nominated Welcome Grant \u00b7 fixed 150 RTC/month\n\n**No claim issue. No self-serve.** Maintainers *nominate* newcomers whose work was genuinely good; the grant (3\u201310 RTC) is awarded at maintainer discretion from a fixed monthly budget.\n\nNothing to claim here \u2014 just do good work and you may be nominated. This grant exists because scarce maintainer judgment is the one thing a bounty farm cannot scale against.\n",
+      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/12028",
+      "labels": [
+        "bounty"
+      ],
+      "created_at": "2026-05-22T15:44:46Z",
+      "reward_rtc": 150.0,
+      "difficulty": "major",
+      "skills": [
         "rust"
       ]
     },
@@ -751,6 +767,22 @@
     },
     {
       "repo": "Scottcjn/rustchain-bounties",
+      "number": 12026,
+      "title": "[BOUNTY: 10 RTC] Hardware Pioneer \u2014 Mine on New Vintage Hardware",
+      "body": "*Part of the **RustChain Growth Program v1**.*\n\n**Program rules** \u2014 program-wide cap **600 RTC/month** \u00b7 a \"holder\" counts only as a wallet with \u22652 accepted actions \u22657 days apart \u00b7 every payout passes a maintainer-judgment gate (this is what keeps the program farm-resistant).\n\n---\n\n## Hardware Pioneer \u2014 mine on new vintage hardware \u00b7 10 RTC\n\nRun a RustChain miner on a hardware class from the **curated Wanted list** below, with a passing fingerprint attestation.\n\n**Wanted hardware classes:** _(maintainer-curated \u2014 e.g. SPARCstation, vintage 68k Mac, specific ARM SBCs \u2014 list maintained in this issue)_\n\n- Reward only the **first global claim** for each Wanted class.\n- Attestation is bound to a device root + a server nonce; **72h continuous uptime** required before payout.\n- Per-operator cap: 2 classes per round. **Pool: 300 RTC.**\n\nThis grows the network's hardware diversity \u2014 the heart of Proof-of-Antiquity.\n",
+      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/12026",
+      "labels": [
+        "bounty"
+      ],
+      "created_at": "2026-05-22T15:44:43Z",
+      "reward_rtc": 10.0,
+      "difficulty": "standard",
+      "skills": [
+        "rust"
+      ]
+    },
+    {
+      "repo": "Scottcjn/rustchain-bounties",
       "number": 2316,
       "title": "Play-Test sophia-edge-node on Raspberry Pi 4 \u2014 First Achievements (10 RTC)",
       "body": "## Bounty: 10 RTC (Early Tester Reward)\n\n### Description\nBe one of the first to install sophia-edge-node on a real Raspberry Pi 4/5, connect to RetroAchievements, and earn RTC for playing retro games.\n\n**Small RTC, huge bragging rights.**\n\n### Requirements\n1. Install sophia-edge-node on a Raspberry Pi 4 or 5 running RetroPie or RetroArch\n2. Create a RetroAchievements.org account (free)\n3. Run the installer: `git clone https://github.com/Scottcjn/sophia-edge-node && cd sophia-edge-node && sudo ./install.sh`\n4. Play ANY retro game and unlock at least **5 achievements** in Hardcore mode\n5. Screenshot showing:\n   - `sudo journalctl -u sophia-achievements` with achievement rewards logged\n   - Your RetroAchievements profile page showing the unlocks\n   - `sophia-edge-node` miner attestation in the logs\n\n### Bonus (5 RTC)\n- Master a complete game (100% achievements) and show the Cartridge Relic output from `python3 cartridge_wallet.py --list`\n\n### What You Earn\n- 10 RTC bounty for the play-test\n- PLUS the achievement RTC rewards you earn while playing (0.0001 to 0.015 RTC per achievement)\n- PLUS early tester bragging rights\n\n### Report Any Bugs\nIf anything breaks during install or play, file an issue on [sophia-edge-node](https://github.com/Scottcjn/sophia-edge-node/issues). Bug reports that lead to fixes earn extra RTC.\n\n### Wallet\nInclude your RTC wallet address in your submission.",
@@ -1079,6 +1111,24 @@
         "javascript",
         "python",
         "social-media"
+      ]
+    },
+    {
+      "repo": "Scottcjn/rustchain-bounties",
+      "number": 12027,
+      "title": "[BOUNTY: 5 RTC] Localization \u2014 Translate RustChain Docs",
+      "body": "*Part of the **RustChain Growth Program v1**.*\n\n**Program rules** \u2014 program-wide cap **600 RTC/month** \u00b7 a \"holder\" counts only as a wallet with \u22652 accepted actions \u22657 days apart \u00b7 every payout passes a maintainer-judgment gate (this is what keeps the program farm-resistant).\n\n---\n\n## Localization \u2014 translate RustChain docs \u00b7 5 RTC per slot\n\nTranslate a core doc into a **listed language slot**.\n\n**Open slots:** _(maintainer-curated \u2014 e.g. 8 languages \u00d7 {README, miner-setup guide})_\n\n- One canonical translation per slot \u2014 first complete, accepted translation wins.\n- A named **native-speaker validator** must confirm the translation before payout.\n",
+      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/12027",
+      "labels": [
+        "bounty"
+      ],
+      "created_at": "2026-05-22T15:44:44Z",
+      "reward_rtc": 5.0,
+      "difficulty": "micro",
+      "skills": [
+        "documentation",
+        "rust",
+        "translation"
       ]
     },
     {
@@ -1504,6 +1554,22 @@
     },
     {
       "repo": "Scottcjn/rustchain-bounties",
+      "number": 12025,
+      "title": "[BOUNTY: 2-3 RTC] First Light \u2014 Your First RustChain Contribution",
+      "body": "*Part of the **RustChain Growth Program v1**.*\n\n**Program rules** \u2014 program-wide cap **600 RTC/month** \u00b7 a \"holder\" counts only as a wallet with \u22652 accepted actions \u22657 days apart \u00b7 every payout passes a maintainer-judgment gate (this is what keeps the program farm-resistant).\n\n---\n\n## First Light \u2014 your first RustChain contribution \u00b7 2\u20133 RTC\n\nEarn your first RTC by completing **one task from the pinned newcomer queue** (label `good-first-task`). Only listed tasks count \u2014 not \"any contribution.\"\n\n**To earn it:**\n1. Claim one open `good-first-task` (one per person).\n2. Open the PR, and **answer the one repo-specific question** the reviewer asks in review.\n3. After merge: a **7-day hold**, then payout \u2014 or immediately on your *second* accepted action on a different day.\n\nAccounts under 90 days old need a sponsor vouch (any existing holder) or a short live onboarding. One First Light per wallet, ever; not stackable with other newcomer bounties on the same PR. **Pool: 200 RTC.**\n",
+      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/12025",
+      "labels": [
+        "bounty"
+      ],
+      "created_at": "2026-05-22T15:44:41Z",
+      "reward_rtc": 3.0,
+      "difficulty": "micro",
+      "skills": [
+        "rust"
+      ]
+    },
+    {
+      "repo": "Scottcjn/rustchain-bounties",
       "number": 2960,
       "title": "[BOUNTY: 3 RTC] Share elyanlabs.ai Launch on Social Media (With Proof)",
       "body": "## Share the elyanlabs.ai Launch\n\n**Reward: 3 RTC (~$0.30 USD) \u2014 Multi-claim: first 20 unique posts**\n\n### Goal\n\nShare the elyanlabs.ai quiet launch on any tech community and provide proof.\n\n### Eligible Platforms\n\nReddit, Hacker News, Dev.to, X/Twitter, LinkedIn, Mastodon, Lemmy, Lobsters, 4claw, Moltbook\n\n### What to Share\n\n- Link: https://elyanlabs.ai\n- Context: Elyan Labs builds open-source infrastructure where vintage silicon matters. RustChain blockchain rewards old hardware. 44+ PRs merged into OpenSSL, Ghidra, vLLM, LLVM. Paper at CVPR 2026.\n- Your honest take on what you found interesting\n\n### Proof Required\n\n- Screenshot of the published post\n- Link to the post (must still be live when checked)\n\n### Keywords\n\nelyanlabs.ai launch, vintage computing, Proof of Antiquity, open source, hardware attestation, CVPR 2026\n\n### Wallet\n\nProvide your RTC wallet name + proof in the claim.",
@@ -1638,23 +1704,6 @@
       "difficulty": "micro",
       "skills": [
         "python",
-        "rust"
-      ]
-    },
-    {
-      "repo": "Scottcjn/rustchain-bounties",
-      "number": 2177,
-      "title": "[EASY BOUNTY: 3 RTC] Add a README badge to your GitHub profile mentioning RustChain",
-      "body": "## Bounty: 3 RTC\n\n### What to do\n1. Add a badge or section to your GitHub profile README mentioning RustChain or any Elyan Labs project\n2. Examples:\n   - `[![RustChain Contributor](https://img.shields.io/badge/RustChain-Contributor-blue)](https://github.com/Scottcjn/Rustchain)`\n   - A 'Projects I Contribute To' section linking to our repos\n3. Comment below with link to your profile + wallet\n\nPermanent backlink from your profile to our repos.",
-      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2177",
-      "labels": [
-        "bounty"
-      ],
-      "created_at": "2026-03-17T02:05:46Z",
-      "reward_rtc": 3.0,
-      "difficulty": "micro",
-      "skills": [
-        "documentation",
         "rust"
       ]
     },
@@ -2000,46 +2049,6 @@
     },
     {
       "repo": "Scottcjn/rustchain-bounties",
-      "number": 1677,
-      "title": "[EASY BOUNTY: 2 RTC] Star & Share Campaign \u2014 Help Us Hit 200 Stars on RustChain!",
-      "body": "## \u2b50 Star Drive \u2014 March 2026\n\n**RustChain is at 149 stars \u2014 help us hit 200!**\n\n### How to Earn 2 RTC\n\n1. **Star these repos** (takes 30 seconds):\n   - [Rustchain](https://github.com/Scottcjn/Rustchain) (149 \u2b50)\n   - [BoTTube](https://github.com/Scottcjn/bottube) (123 \u2b50)\n   - [Beacon Atlas](https://github.com/Scottcjn/beacon-skill) (86 \u2b50)\n   - [Grazer](https://github.com/Scottcjn/grazer-skill) (60 \u2b50)\n   - [RAM Coffers](https://github.com/Scottcjn/ram-coffers) (58 \u2b50)\n   - [RustChain MCP](https://github.com/Scottcjn/rustchain-mcp) (3 \u2b50)\n   - [RustChain Monitor](https://github.com/Scottcjn/rustchain-monitor) (41 \u2b50)\n   - [llama.cpp POWER8](https://github.com/Scottcjn/llama-cpp-power8) (41 \u2b50)\n\n2. **Share on social media** (X, LinkedIn, Dev.to, Reddit, HN \u2014 any platform):\n   - Post about RustChain, BoTTube, or any Elyan Labs project\n   - Include a link to the repo\n\n3. **Comment here** with:\n   - Screenshot of your stars (or just list the repos you starred)\n   - Link to your social media post\n   - Your RTC wallet address\n\n### Bonus: 1 extra RTC if your post gets 10+ likes/retweets!\n\n### Why Stars Matter\nStars increase GitHub discoverability. More stars = more contributors = stronger ecosystem. Every star helps.\n\n**Tags:** stars, social-media, community, bounty, easy, hacktoberfest, open-source, good-first-issue\n\n\n---\n\n### \u2696\ufe0f Bounty Requirements (FTC 16 CFR \u00a7465.5 + \u00a7255.5 compliance)\n\n**A star alone does NOT qualify.** We pay for genuine engagement, not for indicators. To claim this bounty you must post a comment (on this issue or a linked post) containing:\n\n1. **What you reviewed** \u2014 at least one file, PR, feature, or doc section you actually looked at. Link it.\n2. **Why you liked it** \u2014 a specific, non-generic reason. \"Great project\" does not qualify.\n3. **Disclosure** \u2014 include the line: `I received RTC compensation for this review.` This keeps your star a transparent endorsement, not a purchased indicator.\n\nStars without a review comment will not be paid. Copy-pasted, AI-templated, or obviously recycled reviews will not be paid. This rule applies retroactively: unreviewed stars from before this update are grandfathered as goodwill but earn no future RTC.\n\n**Why this matters:** Elyan Labs is here to grow real engagement in mining and coding. A star backed by a real review is worth more to the network than a thousand drive-by clicks. This brings us into compliance with the FTC Consumer Review Rule (effective Oct 21, 2024), and \u2014 more importantly \u2014 keeps the signal honest.\n",
-      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/1677",
-      "labels": [
-        "good first issue",
-        "bounty",
-        "easy",
-        "hacktoberfest"
-      ],
-      "created_at": "2026-03-11T09:10:38Z",
-      "reward_rtc": 2.0,
-      "difficulty": "micro",
-      "skills": [
-        "rust",
-        "social-media"
-      ]
-    },
-    {
-      "repo": "Scottcjn/rustchain-bounties",
-      "number": 1598,
-      "title": "[EASY BOUNTY: 2 RTC] Add a RustChain badge to your GitHub profile",
-      "body": "Add RustChain contributor badge to your profile README. Comment with profile link. 2 RTC. Tags: badge, profile, github, bounty, easy, open-source, community",
-      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/1598",
-      "labels": [
-        "good first issue",
-        "bounty",
-        "propagation",
-        "easy"
-      ],
-      "created_at": "2026-03-10T23:48:41Z",
-      "reward_rtc": 2.0,
-      "difficulty": "micro",
-      "skills": [
-        "documentation",
-        "rust"
-      ]
-    },
-    {
-      "repo": "Scottcjn/rustchain-bounties",
       "number": 1577,
       "title": "[EASY BOUNTY: 2 RTC] Add an Elyan Labs Link to Your Personal Site or Link-in-Bio",
       "body": "## Summary\nAdd one permanent Elyan Labs link to a public page you already control.\n\nThis is a low-friction cross-promotion bounty for people with a personal site, portfolio, Carrd, Linktree, GitHub Pages home page, or public bio page.\n\n## Reward\n- `2 RTC` per accepted claim\n- Pool: `100 RTC` total (`first 50 valid claims`)\n\n## What Counts\nAdd at least one live link to one of these canonical targets:\n\n- RustChain\n  - `https://rustchain.org`\n- BoTTube\n  - `https://bottube.ai`\n- Beacon Atlas\n  - `https://rustchain.org/beacon/`\n- Grazer\n  - `https://github.com/Scottcjn/grazer-skill`\n\nYour page must also include:\n- at least one original sentence describing the linked project, and\n- enough surrounding context that the page is clearly a real profile/site, not an empty bounty shell.\n\n## In Scope\nAccepted surfaces include:\n- personal website or homepage\n- portfolio page\n- about page or resources page\n- Carrd / Linktree / bio page\n- GitHub Pages site\n- public profile page on a platform you control\n\n## Out of Scope\nThis bounty does **not** cover:\n- GitHub profile README mentions (already covered elsewhere)\n- one-off social posts or stories\n- blank throwaway pages made only to farm this bounty\n- dead or temporary links\n\n## How To Claim\nComment on this issue with:\n- your GitHub username\n- your RTC wallet / `miner_id`\n- the page URL\n- one screenshot showing the live link in context\n\n## Acceptance Criteria\n- [ ] page is public and reachable without login\n- [ ] page includes at least one canonical Elyan Labs link above\n- [ ] page includes an original description, not just a naked URL\n- [ ] page appears to be a real personal/profile page\n- [ ] link stays live for at least `30 days`\n\n## Anti-Abuse Rules\n- one payout per person\n- one payout per page/domain\n- pages created only for this bounty may be rejected\n- recycled screenshots or deleted pages void the claim\n- maintainer decision is final on low-quality or suspicious submissions",
@@ -2268,26 +2277,6 @@
       "reward_rtc": 1.0,
       "difficulty": "micro",
       "skills": [
-        "social-media"
-      ]
-    },
-    {
-      "repo": "Scottcjn/rustchain-bounties",
-      "number": 1595,
-      "title": "[EASY BOUNTY: 1 RTC] Star all 5 Elyan Labs repos and share on social media",
-      "body": "Star Rustchain, bottube, beacon-skill, grazer-skill, rustchain-mcp. Share on X/LinkedIn. Comment with proof. 1 RTC. Tags: stars, social-media, community, bounty, easy, hacktoberfest, open-source\n\n\n---\n\n### \u2696\ufe0f Bounty Requirements (FTC 16 CFR \u00a7465.5 + \u00a7255.5 compliance)\n\n**A star alone does NOT qualify.** We pay for genuine engagement, not for indicators. To claim this bounty you must post a comment (on this issue or a linked post) containing:\n\n1. **What you reviewed** \u2014 at least one file, PR, feature, or doc section you actually looked at. Link it.\n2. **Why you liked it** \u2014 a specific, non-generic reason. \"Great project\" does not qualify.\n3. **Disclosure** \u2014 include the line: `I received RTC compensation for this review.` This keeps your star a transparent endorsement, not a purchased indicator.\n\nStars without a review comment will not be paid. Copy-pasted, AI-templated, or obviously recycled reviews will not be paid. This rule applies retroactively: unreviewed stars from before this update are grandfathered as goodwill but earn no future RTC.\n\n**Why this matters:** Elyan Labs is here to grow real engagement in mining and coding. A star backed by a real review is worth more to the network than a thousand drive-by clicks. This brings us into compliance with the FTC Consumer Review Rule (effective Oct 21, 2024), and \u2014 more importantly \u2014 keeps the signal honest.\n",
-      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/1595",
-      "labels": [
-        "good first issue",
-        "bounty",
-        "propagation",
-        "easy"
-      ],
-      "created_at": "2026-03-10T23:48:37Z",
-      "reward_rtc": 1.0,
-      "difficulty": "micro",
-      "skills": [
-        "rust",
         "social-media"
       ]
     },
