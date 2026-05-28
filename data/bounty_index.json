@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-27T07:42:00.361583+00:00",
-  "total_count": 129,
+  "updated_at": "2026-05-28T07:37:22.590202+00:00",
+  "total_count": 128,
   "bounties": [
     {
       "repo": "Scottcjn/rustchain-bounties",
@@ -1479,23 +1479,6 @@
         "documentation",
         "python",
         "social-media"
-      ]
-    },
-    {
-      "repo": "Scottcjn/Rustchain",
-      "number": 819,
-      "title": "[Bounty] @tomisnotcat \u2014 ARM architecture details needed (5 RTC)",
-      "body": "Hey @tomisnotcat \u2014 welcome to RustChain!\n\nWe noticed your miner is attesting with `device_family: arm` but `device_arch: modern`. Our fingerprint system needs more detail about your hardware to assign the correct antiquity multiplier.\n\n**What we need (5 RTC bounty):**\n\nPlease reply with the output of these commands on the machine running your miner:\n\n```bash\n# 1. CPU info\ncat /proc/cpuinfo | head -30\n\n# 2. Architecture\nuname -a\n\n# 3. Device model (if applicable)\ncat /sys/firmware/devicetree/base/model 2>/dev/null || echo \"N/A\"\n\n# 4. CPU details\nlscpu | grep -i \"model\\|arch\\|vendor\\|cpu\"\n```\n\n**Why this matters:**\nARM covers everything from a $5 Raspberry Pi Zero to a $3,000 Ampere server. We need to know which so we can:\n1. Set the right reward multiplier for your hardware class\n2. Add your specific ARM variant to our fingerprint detection\n\nIf you're running something unique (vintage ARM, dev board, etc.) there may be an antiquity bonus available.\n\n**Current status:** Your miner is attesting and enrolled, but at minimum ARM weight (0.001x) until we can verify the hardware class.\n\nThanks for mining!",
-      "url": "https://github.com/Scottcjn/Rustchain/issues/819",
-      "labels": [
-        "bounty",
-        "fingerprint"
-      ],
-      "created_at": "2026-03-10T22:10:21Z",
-      "reward_rtc": 5.0,
-      "difficulty": "micro",
-      "skills": [
-        "rust"
       ]
     },
     {
