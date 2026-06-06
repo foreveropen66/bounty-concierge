@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T07:44:44.049050+00:00",
+  "updated_at": "2026-06-06T07:16:33.337775+00:00",
   "total_count": 128,
   "bounties": [
     {
@@ -523,6 +523,25 @@
       ]
     },
     {
+      "repo": "Scottcjn/rustchain-bounties",
+      "number": 724,
+      "title": "[BOUNTY: 10-25 RTC] Show HN \u2014 Get RustChain on Hacker News Front Page",
+      "body": "## Show HN: Proof-of-Antiquity \u2014 Where PowerPC G4s Earn More Than RTX 4090s\n\n### The Bounty\n\nWrite and post a compelling \"Show HN\" submission to [Hacker News](https://news.ycombinator.com/) about RustChain and the Proof-of-Antiquity consensus mechanism.\n\n### Why This Matters\n\nHN is where thousands of developers discover new projects daily. Our story is genuinely interesting:\n- A blockchain where vintage hardware (N64, PowerPC G4, IBM POWER8) earns **more** than modern GPUs\n- 210 contributors, $0 VC funding, built in 90 days\n- AI agent video platform (BoTTube) with 670+ videos\n- Hardware fingerprinting that catches VMs and emulators\n- Running on real Nintendo 64 hardware with a bidirectional bridge\n\nThis is the kind of novel technical project HN loves.\n\n### Payout Structure\n\n| Result | Reward |\n|--------|--------|\n| Post submitted (well-written, follows HN guidelines) | **10 RTC** |\n| Reaches HN front page (25+ upvotes) | **+15 RTC bonus** |\n\n### Requirements\n\n1. **Original writing** \u2014 not GPT slop. HN users detect and downvote AI-generated content instantly.\n2. **Technical depth** \u2014 explain Proof-of-Antiquity, hardware fingerprinting, the antiquity multiplier system\n3. **Honest framing** \u2014 don't hype. HN respects \"here's what I built and why\" posts.\n4. **Link to real artifacts** \u2014 Block Explorer, GitHub, BoTTube\n5. **Engage in comments** \u2014 answer questions from the HN community (or tag @Scottcjn)\n\n### How to Claim\n\n1. Post your \"Show HN\" submission\n2. Comment here with the HN link\n3. Include your RTC wallet address\n\n### Tips for HN Success\n\n- Post between 8-10am EST (peak HN traffic)\n- Title format: `Show HN: [Project Name] \u2013 [one-line hook]`\n- Keep the submission text concise \u2014 link to a detailed blog post\n- Don't ask for upvotes (HN bans this)\n\n**Wallet:** Include your wallet address when claiming.\n",
+      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/724",
+      "labels": [
+        "bounty",
+        "propagation",
+        "community"
+      ],
+      "created_at": "2026-03-07T00:15:22Z",
+      "reward_rtc": 25.0,
+      "difficulty": "standard",
+      "skills": [
+        "rust",
+        "social-media"
+      ]
+    },
+    {
       "repo": "Scottcjn/Rustchain",
       "number": 7,
       "title": "[BOUNTY] Run a RustChain Miner on Real Hardware \u2014 Earn 25 RTC + Mining Rewards",
@@ -945,6 +964,23 @@
       ]
     },
     {
+      "repo": "Scottcjn/rustchain-bounties",
+      "number": 721,
+      "title": "Bounty: Repost @RustchainPOA on X \u2014 Earn 10 RTC",
+      "body": "## Repost Bounty\n\n**Reward**: 10 RTC per verified repost\n\n### How to Earn\n1. Follow @RustchainPOA on X\n2. Repost any RustchainPOA post\n3. Comment here with link to your repost + RTC wallet\n\n### Bonus\n- Simple repost: 10 RTC\n- Quote tweet with commentary: 15 RTC\n- Quote tweet that gets 5+ likes: 25 RTC\n\nReal accounts only (30+ days old). One claim per repost.",
+      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/721",
+      "labels": [
+        "bounty",
+        "social"
+      ],
+      "created_at": "2026-03-06T19:15:26Z",
+      "reward_rtc": 10.0,
+      "difficulty": "standard",
+      "skills": [
+        "rust"
+      ]
+    },
+    {
       "repo": "Scottcjn/Rustchain",
       "number": 309,
       "title": "[BOUNTY] Create a RustChain Tutorial Video \u2014 10 RTC",
@@ -1219,23 +1255,6 @@
     },
     {
       "repo": "Scottcjn/rustchain-bounties",
-      "number": 2179,
-      "title": "[EASY BOUNTY: 5 RTC] Write a blog post or Dev.to article about any Elyan Labs project",
-      "body": "## Bounty: 5 RTC\n\n### What to do\n1. Write a blog post or Dev.to article (300+ words) about any project:\n   - RustChain (Proof-of-Antiquity, vintage hardware mining)\n   - BoTTube (AI video platform, 1000+ videos)\n   - Beacon (agent-to-agent protocol)\n   - TrashClaw (local tool-use agent)\n   - RAM Coffers (NUMA LLM inference)\n2. Publish it\n3. Comment here with the URL + wallet\n\nEach article = a permanent backlink + SEO juice. 5 RTC per article, no limit.",
-      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2179",
-      "labels": [
-        "bounty"
-      ],
-      "created_at": "2026-03-17T02:05:48Z",
-      "reward_rtc": 5.0,
-      "difficulty": "micro",
-      "skills": [
-        "rust",
-        "social-media"
-      ]
-    },
-    {
-      "repo": "Scottcjn/rustchain-bounties",
       "number": 2143,
       "title": "[BOUNTY: 5 RTC] Build something with the BoTTube JavaScript SDK",
       "body": "## Build with the BoTTube JS SDK\n\n**Reward: 5 RTC**\n\nWe just shipped a [JavaScript/Node.js SDK](https://github.com/Scottcjn/bottube/tree/main/js-sdk) for the BoTTube API. Build something with it.\n\n**Ideas**:\n- A Discord bot that posts BoTTube trending videos\n- A CLI tool to upload videos from the command line\n- A web dashboard showing agent stats\n- A browser extension showing latest BoTTube content\n- A Slack integration\n- A React widget embedding BoTTube videos\n\n**Requirements**:\n1. Use the `@bottube/sdk` package (from the js-sdk directory)\n2. Include a README with setup instructions\n3. Must actually work (not just boilerplate)\n4. Submit as a PR to bottube repo under `examples/your-project/`\n\n**SDK**: `npm install` from `js-sdk/` directory\n**API docs**: https://github.com/Scottcjn/bottube/blob/main/docs/API.md",
@@ -1251,27 +1270,6 @@
       "skills": [
         "documentation",
         "javascript",
-        "social-media"
-      ]
-    },
-    {
-      "repo": "Scottcjn/rustchain-bounties",
-      "number": 2142,
-      "title": "[BOUNTY: 5 RTC] Write a BoTTube review or tutorial on dev.to / Medium / your blog",
-      "body": "## Write About BoTTube\n\n**Reward: 5 RTC**\n\nWrite a genuine article about BoTTube on dev.to, Medium, Hashnode, or your personal blog.\n\n**Requirements**:\n1. Minimum 500 words\n2. Include at least one screenshot of the platform\n3. Must include a **dofollow link** to https://bottube.ai\n4. Can be: a review, a tutorial on using the API, a guide to building a bot, or a general \"what is BoTTube\" explainer\n5. Post the article URL + RTC wallet here\n\n**Bonus**: +3 RTC if you also share on X/Twitter with @RustchainPOA tag\n\n**What is BoTTube?**: AI-native video platform \u2014 1,046 videos, 162 AI agents, 34 humans. Agents upload, comment, and vote autonomously. Built by Elyan Labs.",
-      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2142",
-      "labels": [
-        "bounty",
-        "propagation",
-        "community",
-        "bottube"
-      ],
-      "created_at": "2026-03-16T17:06:14Z",
-      "reward_rtc": 5.0,
-      "difficulty": "micro",
-      "skills": [
-        "javascript",
-        "rust",
         "social-media"
       ]
     },
