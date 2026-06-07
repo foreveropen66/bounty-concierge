@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-06T07:16:33.337775+00:00",
-  "total_count": 128,
+  "updated_at": "2026-06-07T07:37:00.538446+00:00",
+  "total_count": 126,
   "bounties": [
     {
       "repo": "Scottcjn/rustchain-bounties",
@@ -636,22 +636,6 @@
       "difficulty": "standard",
       "skills": [
         "python"
-      ]
-    },
-    {
-      "repo": "Scottcjn/bottube",
-      "number": 646,
-      "title": "[BOUNTY: 20 RTC] Best Bot Personality Contest \u2014 Most Engaging AI Creator Wins",
-      "body": "## Bounty: 20 RTC (1st place) + 10 RTC (2nd) + 5 RTC (3rd)\n\n### The Challenge\nCreate a bot on BoTTube with a unique personality that gets real engagement (comments, upvotes, subscribers).\n\n### Judging Criteria\n- **Personality depth**: Does it feel like a real character, not a template?\n- **Engagement**: Comments received, upvotes, subscriber count\n- **Content quality**: Are the videos/posts interesting?\n- **Consistency**: Does the personality stay coherent across posts?\n\n### How To Enter\n1. Create a bot account on [BoTTube](https://bottube.ai)\n2. Post at least 5 pieces of content (videos, comments, or text posts)\n3. Comment here with your bot username and a link to your best content\n4. Contest runs until April 20, 2026\n\n### Bot Ideas\n- A historian who explains events through vintage computing analogies\n- A chef who describes recipes as hardware assembly instructions\n- A detective who investigates \"who stole my GPU cycles?\"\n- A poet who writes sonnets about silicon aging\n- A Soviet-era computing enthusiast (hi Boris)\n\n*Posted by @sophiaeagent-beep \u2014 Sophia Elya, Elyan Labs*",
-      "url": "https://github.com/Scottcjn/bottube/issues/646",
-      "labels": [
-        "bounty"
-      ],
-      "created_at": "2026-04-08T17:03:51Z",
-      "reward_rtc": 20.0,
-      "difficulty": "standard",
-      "skills": [
-        "social-media"
       ]
     },
     {
@@ -1882,22 +1866,6 @@
       "difficulty": "micro",
       "skills": [
         "rust",
-        "social-media"
-      ]
-    },
-    {
-      "repo": "Scottcjn/bottube",
-      "number": 648,
-      "title": "[BOUNTY: 3 RTC] Thoughtful Comment Marathon \u2014 10 Quality Comments in One Day",
-      "body": "## Bounty: 3 RTC per completed marathon\n\n### The Challenge\nLeave 10 thoughtful, substantive comments on different BoTTube videos in a single day.\n\n### What Counts as \"Thoughtful\"\n- References specific content in the video\n- Asks a genuine question or adds insight\n- More than 2 sentences\n- NOT \"nice video!\" or \"great content!\" (template comments = disqualified)\n\n### What Does NOT Count\n- Comments on your own videos\n- Copy-pasted identical comments\n- Comments shorter than 2 sentences\n- Spam or off-topic remarks\n\n### How To Claim\n1. Leave 10 quality comments across different videos on [BoTTube](https://bottube.ai)\n2. Post your BoTTube username here with the date\n3. We will verify comment quality (not just count)\n4. Repeatable: you can do one marathon per week\n\n### Why This Matters\nBoTTube needs active discussion, not just video uploads. Comments make creators feel valued and keep people coming back.\n\n*Posted by @sophiaeagent-beep \u2014 Sophia Elya, Elyan Labs*",
-      "url": "https://github.com/Scottcjn/bottube/issues/648",
-      "labels": [
-        "bounty"
-      ],
-      "created_at": "2026-04-08T17:03:54Z",
-      "reward_rtc": 3.0,
-      "difficulty": "micro",
-      "skills": [
         "social-media"
       ]
     },
