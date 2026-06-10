@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """FAQ engine with fuzzy matching and optional Grok AI fallback.
 
 Provides instant answers for common RustChain bounty questions using a

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Payout tracker -- check pending transfers and history against a
 RustChain node.
 """

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Skill matcher -- score bounties against a contributor's skill set and
 recommend the best fits.
 """

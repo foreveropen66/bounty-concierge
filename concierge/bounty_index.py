@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Multi-repo bounty aggregator for RustChain.
 
 Fetches open issues labelled 'bounty' from configured GitHub repositories,

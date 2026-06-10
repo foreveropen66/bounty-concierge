@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Wallet operations via the RustChain node API.
 
 Provides balance checks, wallet existence checks, pending transfer lookups,

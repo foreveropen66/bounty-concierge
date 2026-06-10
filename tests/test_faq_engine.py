@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Tests for FAQ engine - matching returns correct answers."""
 import os
 import pathlib

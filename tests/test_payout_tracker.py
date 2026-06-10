@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Unit tests for payout_tracker network handling and formatting."""
 
 import pathlib

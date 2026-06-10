@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Tests for skill-based bounty matching."""
 
 import pathlib

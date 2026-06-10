@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Cross-platform engagement helpers for the RustChain ecosystem.
 
 Star repos, check Dev.to stats, upvote on SaaSCity, and generate

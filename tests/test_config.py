@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Tests for config module."""
 import pathlib
 import sys

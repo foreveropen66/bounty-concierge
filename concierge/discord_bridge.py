@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Discord-to-chain wallet migration bridge.
 
 Queries the Sophiacord Discord economy database (SQLite on NAS) via SSH,

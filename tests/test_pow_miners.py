@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Unit tests for PoW miner helper functions."""
 
 import pathlib

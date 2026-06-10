@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Tests for bounty index - RTC parsing from issue titles."""
 import pathlib
 import sys

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Configuration module for RustChain Bounty Concierge.
 
 All settings are loaded from environment variables with sensible defaults.

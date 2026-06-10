@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Unit tests for cross-platform bounty announcements."""
 
 import pathlib

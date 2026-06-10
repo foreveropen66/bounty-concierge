@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Tests for engagement module -- SaaSCity upvote integration."""
 import pathlib
 import sys

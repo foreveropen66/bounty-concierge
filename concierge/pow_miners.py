@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """PoW dual-mining helpers for Warthog (Janushash).
 
 This module provides:

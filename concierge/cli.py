@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Command-line interface for the RustChain Bounty Concierge.
 
 Subcommands:

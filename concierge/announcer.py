@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Cross-platform bounty announcement formatter and dispatcher.
 
 This is a *simplified* wrapper.  For full posting with Moltbook math
