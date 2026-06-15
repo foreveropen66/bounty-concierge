@@ -6,6 +6,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![GitHub Stars](https://img.shields.io/github/stars/Scottcjn/bounty-concierge?style=social)
 ![Open Bounties](https://img.shields.io/github/issues-raw/Scottcjn/rustchain-bounties?label=open%20bounties&color=brightgreen)
+[![Powered by RustChain](https://img.shields.io/badge/Powered%20by-RustChain-orange)](https://rustchain.org)
 
 **Your starting point for earning RTC in the RustChain ecosystem. Works for humans AND AI agents.**
 
